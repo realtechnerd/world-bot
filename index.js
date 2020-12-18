@@ -40,7 +40,7 @@ async function retrieveRandomCountry(msg) {
 
     let capital;
     if (d[randomCont].capital === "") {
-        capital = ""
+        capital = "No Capital"
     } else {
         capital = `Capital: ${d[randomCont].capital}`
     }
